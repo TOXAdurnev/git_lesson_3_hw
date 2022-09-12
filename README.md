@@ -11,3 +11,33 @@ git clone <скопированный HTTPS-адрес>
 https://github.com/TOXAdurnev/git_lesson_3_hw.git
 ```
 ![clone](images\clone.PNG)
+
+
+
+## Pull request 
+* Находим интересующий нас проект для которого мы хотим предлождить изменения.
+* Нажимаем кнопку **Fork**
+![fork](images\Fork.PNG)
+* Вводим название как он у нас будет называться (Он появится на нашем аккаунте GitHub)
+* Делаем клонирование на локальный репозиторий
+* Создаем новую ветку
+`ВАЖНО!!! Pull request делаем только в отдельной ветке. В основной ветке менять ничего не надо`
+
+Команда для создания и перехода в новую ветку
+```
+git checout -b <имя новой ветки>
+```
+* После внесения изменений/предложений используем команду
+
+```
+git push -u oriigin <имя новой ветки>
+```
+* Переходим во вкладку Pull request
+* Нажимаем ктопку New pull request
+
+![pull_reauests](images\pull_reaqests.PNG)
+
+* Выбираем номую ветку 
+* нажимаеv View pull request
+![pull_reauests](images\View_pull_request.PNG)
+* И завершающий этам нажать кнопку Create pull request
