@@ -10,14 +10,14 @@ git clone <скопированный HTTPS-адрес>
 Пример:
 https://github.com/TOXAdurnev/git_lesson_3_hw.git
 ```
-![clone](images\clone.PNG)
+![clone](https://github.com/TOXAdurnev/git_lesson_3_hw/blob/NewGuide/images/clone.PNG)
 
 
 
 ## Pull request 
 * Находим интересующий нас проект для которого мы хотим предлождить изменения.
 * Нажимаем кнопку **Fork**
-![fork](images\Fork.PNG)
+![fork](https://github.com/TOXAdurnev/git_lesson_3_hw/blob/NewGuide/images/Fork.PNG)
 * Вводим название как он у нас будет называться (Он появится на нашем аккаунте GitHub)
 * Делаем клонирование на локальный репозиторий
 * Создаем новую ветку
@@ -35,9 +35,9 @@ git push -u oriigin <имя новой ветки>
 * Переходим во вкладку Pull request
 * Нажимаем ктопку New pull request
 
-![pull_reauests](images\pull_reaqests.PNG)
+![pull_reauests](https://github.com/TOXAdurnev/git_lesson_3_hw/blob/NewGuide/images/pull_reaqests.PNG)
 
 * Выбираем номую ветку 
 * нажимаеv View pull request
-![pull_reauests](images\View_pull_request.PNG)
+![pull_reauests](https://github.com/TOXAdurnev/git_lesson_3_hw/blob/NewGuide/images/View_pull_request.PNG)
 * И завершающий этам нажать кнопку Create pull request
